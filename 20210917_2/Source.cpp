@@ -5,9 +5,9 @@ using namespace std;
 int main()
 {
 	//¹è¿­
-	int a[100];
+	/*int a[100];
 	int i = 0;
-	int Sum = 0;
+	int Sum = 0;*/
 	//a 0 1 2 3 4 5 6 7 8 9 
 	// [2^32][][][][][][][][][]
 	//for (i = 0; i <= 100; i++)
@@ -16,14 +16,14 @@ int main()
 	//}
 
 	//cout << Sum;
+	int Total = 0;
 
-	for (i = 0; i <= 100; i + 3)
+	for (int Count = 1; Count <= 100; Count++ )
 	{
-		Sum = Sum + i;
+		Total = Total + Count;
 	}
 
-	cout << Sum;
-
+	cout << Total << endl;
 
 	//type
 	//int -> float
